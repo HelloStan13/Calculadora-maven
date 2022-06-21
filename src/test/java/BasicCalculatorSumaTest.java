@@ -14,9 +14,9 @@ public class BasicCalculatorSumaTest {
     @DisplayName("Testing sum: 1+1 = 2")
     public void sum(){
         // Arrange
-        Long number1 = 1L;
-        Long number2 = 1L;
-        Long expectedValue = 2L;
+        Long number1 = 4L;
+        Long number2 = 2L;
+        Long expectedValue = 6L;
 
         // Act
         Long result = basicCalculator.sum(number1, number2);
